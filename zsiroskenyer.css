@@ -1,1 +1,50 @@
-gjduki
+body {
+  background-color: #9a8200;
+}
+
+h1 {
+  color: #250b6a;
+  text-align: center;
+  margin: 20px auto;
+}
+#container {
+  background-color: #4b3f00;
+  height: 250px;
+  width: 300px;
+  border: 5px solid #9a0000;
+  margin: auto;
+  position: relative;
+}
+
+.first {
+  height: 25%;
+  width: 25%;
+}
+
+#box-01 {
+  background-color: #26b126;
+    position: absolute;
+  left: -15px;
+  top: -15px;
+}
+
+#box-02 {
+  background-color: #0d950d;
+    position: absolute;
+  right: -15px;
+  top: -15px;
+}
+
+#box-03 {
+  background-color: #005f00;
+    position: absolute;
+  left: -15px;
+  bottom: -15px;
+}
+
+#box-04 {
+  background-color: #003c00;
+  position: absolute;
+  right: -15px;
+  bottom: -15px;
+}
